@@ -1,0 +1,321 @@
+/**
+*  Template Name: Pratt
+*  Template URL: https://templatemag.com/pratt-app-landing-page-template/
+*  Author: TemplateMag.com
+*  License: https://templatemag.com/license/
+*/
+
+body {
+  background-color: #1f202b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 50px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pink {
+  color: #fa0075;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Titles */
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+  color: #fa0075;
+}
+
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #ffffff;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #fa0075;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  background-color: #1f202b;
+  padding-top: 60px;
+  background-image: url("../img/hero-background.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 500px;
+}
+
+#headerwrap h1 {
+  margin-top: 12%;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: left;
+}
+
+#headerwrap h3 {
+  color: white;
+  font-size: 30px;
+}
+
+#headerwrap h5 {
+  color: #fa0075;
+  font-weight: 700;
+  text-align: left;
+}
+
+#headerwrap p {
+  text-align: left;
+  color: white
+}
+
+.profile{
+  padding: 3px;
+  background: white;
+  border: 1px solid #fa0075;
+  max-height: 208px;
+}
+
+/* aboutme Wrap */
+
+#intro {
+  padding-top: 100px;
+}
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+#features .ac a {
+  font-size: 20px;
+}
+
+.icon {
+  max-height: 100px;
+}
+
+.keyboard{
+  background-image: url("../img/keyboard.png") ;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 500px;
+}
+
+/* portfolio Wrap */
+
+#showcase {
+  display: block;
+  background-color: #1f202b;
+  /* background-color: #34495e; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#indicators{
+  bottom: 100%;
+}
+
+#showcase h1 {
+  color: #fa0075;
+}
+
+#footerwrap {
+  background-color: #1f202b;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+#footerwrap h3 {
+  font-size: 28px;
+  color: #fa0075;
+}
+
+#footerwrap p {
+  color: white;
+  font-size: 18px;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Copyright Wrap */
+
+#copyrights {
+  background: #1f202b;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+#copyrights p {
+  margin: 0 0 5px 0;
+}
+
+.credits {
+  color: #999;
+}
+/* Contact Form */
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button {
+  background: #fa0075;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact-form .form-send button:hover {
+  background: #b30053;
+}
+
+.contact-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
