@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Pratt - Free Bootstrap App Landing Page Template</title>
+  <title>ericpcodes</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -65,7 +65,12 @@
             <br>
             <img src="./img/profile-cropped.png" class="profile"/>
             <br>
-            <h2>&lt;eric piñero | web developer&gt;</h2>
+            <h2>&lt;eric piñero | software engineer&gt;</h2>
+            <h2>
+              &lt;<a class="resume" target="_blank" href="https://drive.google.com/file/d/1CZaMcjMM7ZzoDg6rUoorjdLM1hghoBDy/view?usp=sharing">
+                resumé
+              </a>&gt;
+            </h2>
           </div>
 
           <!-- <div class="col-lg-5 column centered">
@@ -128,26 +133,26 @@
           </div>
         </div>
         <br>
-      <div class="container">
-        <div class="row centered">
-          <div class="col-lg-4">
-            <img class="icon" src="img/html-icon.png" alt="">
-            <h3>HTML 5</h3>
-            <br>
-          </div>
-          <div class="col-lg-4">
-            <img class="icon" src="img/css-icon.png" alt="">
-            <h3>CSS 3</h3>
-          </div>
-          <div class="col-lg-4">
-            <img class="icon" src="img/git-icon.png" alt="">
-            <h3>Git</h3>
-          </div>
-        </div>
-        <br>
-        <hr>
-      </div>
       <!--/ .container -->
+      <div class="container">
+    </div>
+      <div class="row centered">
+        <div class="col-lg-4">
+          <img class="icon" src="img/html-icon.png" alt="">
+          <h3>HTML 5</h3>
+          <br>
+        </div>
+        <div class="col-lg-4">
+          <img class="icon" src="img/css-icon.png" alt="">
+          <h3>CSS 3</h3>
+        </div>
+        <div class="col-lg-4">
+          <img class="icon" src="img/git-icon.png" alt="">
+          <h3>Git</h3>
+        </div>
+      </div>
+      <br>
+      <hr>
     </div>
     <!--/ #introwrap -->
 
@@ -159,23 +164,54 @@
             <h1 class="centered">portfolio</h1>
             <br>
             <div class="col-lg-8 col-lg-offset-2">
+                <!-- <ul>
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                      <a class="carousel-item"> > Bootbeginner</a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1">
+                      <a class="carousel-item"> > Atomic Warriors</a>
+                    </li>
+                </ul> -->
+
+                
+      
               <div id="carousel-example-generic" class="carousel slide">
                 <!-- Indicators -->
-                <ol class="carousel-indicators" id="indicators">
+                <!-- <ol class="carousel-indicators" id="indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
-  
+                </ol> -->
+
+                <div class="item first">
+                  <img class="project" src="img/bootbeginner.png" alt="">
+                  <h3 class="pink">Bootbeginner</h3>
+                  <p>A Kickstarter inspired footwear crowdfunding project 
+                    built using JavaScript, Ruby on Rails, React.js, Redux, PostgresSQL, Heroku, and Webpack.
+                  </p>
+                  <a href="https://bootbeginner.herokuapp.com/#/"><b>Live</b></a>
+                  <a href="https://github.com/eric-pinero/bootbeginner"><b>Repo</b></a>
+                </div>
+
+                <div class="item">
+                  <img class="project" src="img/atomic-warriors.png" alt="">
+                  <h3 class="pink">Atomic Warriors</h3>
+                  <p>A fighting game in the style of early arcade games built using native
+                    JavaScript, HTML5, CSS3, and Canvas.
+                  </p>
+                  <a href="https://eric-pinero.github.io"><b>Live</b></a>
+                  <a href="https://github.com/eric-pinero/eric-pinero.github.io"><b>Repo</b></a>
+
+
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner">
+                <!-- <div class="carousel-inner">
                   <div class="item active">
                     <img src="img/bootbeginner.png" alt="">
                     <h3 class="pink">Bootbeginner</h3>
                     <p>A Kickstarter inspired footwear crowdfunding project 
                       built using JavaScript, Ruby on Rails, React.js, Redux, PostgresSQL, Heroku, and Webpack.
                     </p>
-                    <a href="https://bootbeginner.herokuapp.com/#/">Live</a>
-                    <a href="https://github.com/eric-pinero/bootbeginner">Repo</a>
+                    <a href="https://bootbeginner.herokuapp.com/#/"><b>Live</b></a>
+                    <a href="https://github.com/eric-pinero/bootbeginner"><b>Repo</b></a>
                   </div>
                   <div class="item">
                     <img src="img/atomic-warriors.png" alt="">
@@ -183,10 +219,10 @@
                     <p>A fighting game in the style of early arcade games built using native
                       JavaScript, HTML5, CSS3, and Canvas.
                     </p>
-                    <a href="https://eric-pinero.github.io">Live</a>
-                    <a href="https://github.com/eric-pinero/eric-pinero.github.io">Repo</a>
+                    <a href="https://eric-pinero.github.io"><b>Live</b></a>
+                    <a href="https://github.com/eric-pinero/eric-pinero.github.io"><b>Repo</b></a>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -224,10 +260,16 @@
                 <div>
                   <div class="accordion-inner">
                     <p>
-                      I programmed professionally for the first time without even realizing it. 
-                      I built an extensive logic driven quality checklist for my department and it was only after 
-                      I finished that I realized that this giant series of logic gates was essentially a program. 
-                      Since then, I've learned JavaScript, HTML, CSS, React, Redux, Ruby and Rails. 
+                      I'm an experienced full stack developer, with a particular passion
+                      for clean and efficient front end development. Whether its writing new features
+                      or diving in to debug existing features, I find tremendous satisfaction in 
+                      solving complex problems.
+
+                      <!-- I love to code because it lets you dig into the building blocks
+                      of an entire world. Whether it's contributing to a large project or working solo on 
+                      a simple browser game, all programming is an act of creation. That is why I program,
+                      to put a piece of myself out into the world, and make it better than it was.
+                        -->
                     </p>
                   </div>
                   <!-- /accordion-inner -->
@@ -245,9 +287,8 @@
                 <div>
                   <div class="accordion-inner">
                     <p>
-                      When I'm not programming, I enjoy cooking cuisines from new countries, stand up comedy, 
-                      and playing with dogs. I have a deep and abiding fascination with 90s era Nickelodeon and
-                      the noble octopus.
+                      When I'm not programming, I enjoy cooking cuisines from new countries, stand up comedy, playing with dogs
+                      and the noble Stegosaurus.
                     </p>
                   </div>
                   <!-- /accordion-inner -->
@@ -361,7 +402,7 @@
   <div id="copyrights">
     <div class="container">
       <p>
-        &copy; Copyrights <strong>Pratt</strong>. All Rights Reserved 
+        &copy;<strong>Eric Piñero</strong>. All Rights Reserved 
       </p>
       <div class="credits">
         <!--
