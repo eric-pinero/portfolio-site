@@ -340,3 +340,7 @@ hr {
   font-weight: 600;
   margin: 15px 0;
 }
+
+.fit {
+  width: 65px; 
+}
