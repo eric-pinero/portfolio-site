@@ -171,9 +171,6 @@ hr {
 #showcase {
   display: block;
   background-color: #1f202b;
-  /* background-color: #34495e; */
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 #indicators{
@@ -192,12 +189,19 @@ hr {
   width: 100%;
 }
 
-.first{
-  margin-bottom: 60px;
-}
-
 .carousel-item{
   font-size: 24px;
+}
+
+.app-links{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 #footerwrap {
