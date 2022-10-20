@@ -166,7 +166,7 @@ hr {
   min-height: 500px;
 }
 
-/* portfolio Wrap */
+/* Portfolio Wrap */
 
 #showcase {
   display: block;
@@ -203,6 +203,8 @@ hr {
 .bold{
   font-weight: bold;
 }
+
+/* Footer */
 
 #footerwrap {
   background-color: #1f202b;
